@@ -1,242 +1,378 @@
-.main_div{
-    height:100%;
-    width:25%;
-    border:1px solid lightgrey;
-    background-color: white;
-    margin-left: 450px;
-    margin-top:120px;
-    padding-bottom:18px;
+.parent {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 400px;
 }
+.parent_index2 {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 550px;
+}
+.index3_style {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.bg-image {
+    background-image: url("./index.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
+  .bg2-image {
+    background-image: url("./index1.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
 .child {
-    width:320px; 
-    height:240px;
-}
-.h1_style {
-    font-size:38px;
-    display: inline-block;
-    margin-top :40px;
+    width: 150px;
+    height: 200px;
+    padding-left: 10px;
+    margin-right: 55px;
+    border: 1px solid #E80000;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     text-align: center;
-    margin-left: 25px;
-    
+    box-shadow: 10px 10px lightgrey;
 }
-.a_style{
-    color:black;
-    font-weight: lighter;
-    font-family: 'Poiret One';
-    text-decoration: none;
+.p_index_body_style2{
+    color:red;
 
 }
-.p_style {
+.a_index_body_style {
+    text-decoration: none;
+    color:#F00000;
+    
+}
+.i_index2_style {
+    font-size:30px;
+    color:#F00000;
+    margin-left: 240px;
+    margin-top: 70px;
+}
+.child_index2 {
+    width:280px; 
+    height:240px;
+    padding-left: 14px;
+    margin-right: 55px;
+    border: 1px solid #E80000;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    box-shadow: 10px 10px lightgrey;
+}
+.p_second_index_style  {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size:30px;
+    display: inline-block;
+    margin-top :175px;  
+    font-family: 'Poiret One';
+    color:grey;
+}
+.p_index_body_style{
+    color:#F00000;
+    font-family:'Poiret One';
+    font-size: 24px;
+    margin-top:10px;
+}
+.a_index_style {
+    font-family:'Poiret One';
+    font-size: 25px;
+    margin-left: 5px;
+    color: grey;
+    text-decoration: none;
+}
+.i_index_plus_style {
+    font-size:35px;
+    color:#F00000;
+    margin-left: 300px;
+    
+}
+.h1_index_style {
+    font-size:38px;
+    text-align: center;
+    margin-left: 400px;
+    display: inline-block;
+   
+}
+.p_index_style {
     color:black;
     margin-left: 10px;
     font-weight: lighter;
     font-size:34px;
     display: inline-block;
-    margin-top :40px;
     font-family: 'Poiret One';
 }
-
-.i_style {
-    font-size:35px;
-    color:red;
-    margin-left: 280px;
-    margin-top: -70px;
+.input_style {
+    border:1px solid #F00000;
+    height:20px;
 }
-
-
-
 .form_style {
-    color:red;
-    border: 1px solid red;
+    color:#F00000;
+    border: 1px solid #F00000;
     display: inline-block;
-    width:310px;
+    width:350px;
     height: 180px;
+    text-align:center;
+    margin-top: 200px;
+    margin-left: 480px;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    border-radius: 7px;
+   }
+   
+   .form_index4_style {
+    color:#F00000;
+    border: 1px solid #F00000;
+    display: inline-block;
+    width:350px;
+    height: 150px;
     text-align:center;
     margin-top: 300px;
     margin-left: 500px;
-    padding-top:30px;
     padding-bottom: 30px;
-    position: relative;
     background-color: white;
+    z-index: 1;
+    position: relative;
+    border-radius: 7px;
    }
-   .main {
-    display: flex;
-    
- }
- .p_body {
-    width:40%;
-    height:40%;
-    border: 0.1px solid pink;
-    padding-top:5px;
-    padding-bottom:5px;
-    border-radius:5px;
-    padding-left:15px;
-    padding-right:100px;
-    margin-left:30px;
-    font-size: 17px;
-    font-family: 'Poiret One';
-}
 
- .parent {
-    display: flex;
-    margin-top: 0px;
-    margin-left: 530px;
-    width:290px;
-    height:370px;
-    border: 1px solid red;
-    padding-left:20px;
-    border-radius: 5px;
-}
-.h1_index2_style{
-    margin-left:15px;
-    margin-top:35px;
-    font-size: 35px;
-}
-
+   .index4_input_style {
+    border:1px solid #F00000;
+    height:20px;
+   }
 .button_style {
-    background-color: red;
+    background-color: #F00000;
     color:white;
     border-radius: 13px;
     width: 70px;
     height: 30px;
     font-size: large;
-    border: 1px solid red;
+    border: 1px solid #F00000;
     padding-bottom: 5px;
 }
-#i_index2_style{
-    font-size:44px;
-    color:red;
-    margin-left:560px;
+.p_style {
+    color:grey;
+    font-size: x-large;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.a_index2_style {
+    color:#F00000;
+    text-decoration: none;
+    font-size: 300;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.i_index2_top_style {
+    font-size:34px;
+    color:#F00000;
+    margin-left:640px;
     margin-bottom: 5px;
-    margin-top:40px;
-    font-size: xx-large;
+    margin-top:4px;
+    
 }
-#i_index2_plus_style {
-    font-size:30px;
-    color:red;
-    margin-left: 240px;
-    margin-top: 70px;
+.p_index2_style {
+    color:#F00000;
+    font-size: x-large;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 10px;
 }
-.p_del {
+.p_index2_style2 {
     color:red;
     font-size: x-large;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 10px;
 }
-.body_style {
-    background-image: url(./index.png);
+.main {
+   display: flex;
+}
+
+.image {
+    background-image: url("./index.png");
     backdrop-filter: blur(5px);
     background-repeat: no-repeat;
-    background-position: center;
-    margin-top:35px;
-   }
-    .body_index_style {
-        background-image: url(./index2.png);
-        backdrop-filter: blur(6px);
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top:15px;
-        }
-
-@media screen and (min-width:562px)  and (max-width:856px) {
-    .main_div{
-        height:100%;
-        width:40%;
-        border:1px solid lightgrey;
-        background-color: white;
-        margin-left: 50px;
-        margin-top:90px;
-        padding-bottom:18px;
-        padding-left: 10px;
-        padding-right:5px;
-    }
-    .h1_style {
-        font-size:30px;
+    margin-left:200px;
+    margin-top: 110px;
+   
+}
+@media screen and (min-width:359px) and (max-width:641px) { 
+    .h1_index_style {
+        font-size:15px;
+        margin-left: 7px;
         display: inline-block;
-        margin-top :20px;
-        text-align: center;
-        margin-left: 10px;
+    }
+    .p_index_body_style{
+       font-size: 15px;
+        margin-top:10px;
+    }
+    .p_index_body_style2{
+        display: none;
+    
+    }
+    .p_value{
+        display: none;
+    }
+    .button_style {
+       border-radius: 8px;
+        width: 50px;
+        height: 20px;
+        font-size: medium;
+        padding-bottom: 2px;
+    }
+    .p_second_index_style  {
+        display: none;
        
-        
     }
-    .i_style {
-        font-size:20px;
-        color:red;
-        margin-left: 190px;
-        margin-top: -50px;
+    hr{
+        display: none;
     }
-    .p_style {
-        color:black;
-        margin-left: 5px;
-        font-size:24px;
-        display: inline-block;
-        margin-top :20px;
-        font-family: 'Poiret One';
-        
+    div1_checkbox {
+        display: none;
+        initial-value: none;
     }
     
-   
-    #i_index2_style{
-        font-size:40px;
-        margin-left:200px;
-        margin-bottom: 5px;
-        margin-top:40px;
-        font-size: x-large;
+    .a_index_style {
+       font-size: 15px;
+        margin-left: 10px;
     }
-    .h1_index2_style{
-        margin-left:25px;
-        margin-top:35px;
-        font-size: 25px;
-    }
-    .p_body {
-        width:45%;
-        padding-top:5px;
-        padding-bottom:5px;
-        border-radius:5px;
-        padding-left:5px;
-        padding-right:100px;
-        margin-left:10px;
-        font-size: 17px;
-        font-family: 'Poiret One';
-    }
-    .parent {
-        display: flex;
+    .form_index4_style {
+        width:270px;
+        height: 150px;
+        text-align:center;
+        margin-top: 220px;
+        margin-left: 50px;
+        padding-bottom: 10px;
+         z-index: 1;
+        position: relative;
+        border-radius: 7px;
+       }
+      
+    .p_style {
+       font-size:large;
+        font-weight: 300;
         margin-top: 20px;
-        margin-left: 160px;
-        width:220px;
-        height:290px;
-        border: 1px solid red;
-        padding-left:70px;
-        padding-right: 0px;
-        border-radius: 5px;
-    }
-    .child {
-        width:180px; 
-        height:200px;
         margin-left: 4px;
-        margin-right: 0px;
     }
-    #i_index2_plus_style {
+    .p_index_style {
+        margin-left: 4px;
+        font-size:15px;
+        display: inline-block;
+     }
+     .i_index2_top_style {
+        font-size:30px;
+        margin-left:100px;
+        margin-bottom: 5px;
+        margin-top:4px;
+        
+    }
+     .i_index_plus_style {
+        font-size:15px;
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .i_index2_style {
         font-size:20px;
+        color:#F00000;
         margin-left: 170px;
         margin-top: 70px;
     }
-    .p_del {
-        font-size: medium;
+   .main{
+       margin-top:20px;
+       margin-left:5px;
+   }
+    .parent {
+        flex-direction: column;
+        margin-left: 15px;
+        display: inline-block;
+        margin-top:0px;
+       }
+       .child {
+        width: 80px;
+        height: 30px;
+        padding-left: 10px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom:10px;
+        box-shadow: 5px 5px lightgrey;
+    }
+    body{
+        display: inline-block;
+        margin:0px;
+    }
+    .parent_index2 {
+        margin-left: 40px;
     }
     .form_style {
-        width:350px;
-        height: 180px;
+        width:220px;
+        height: 130px;
         text-align:center;
-        margin-top: 300px;
-        margin-left: 70px;
-        padding-top:30px;
+        margin-top: 200px;
+        margin-left: 80px;
         padding-bottom: 30px;
-        position: relative;
         background-color: white;
+        z-index: 1;
+        position: relative;
+        border-radius: 7px;
        }
-       .body_style {
-        background-position:auto;
+       .bg-image {
+        background-position:left;
+        background-repeat: no-repeat;
+        position:absolute;
+        width:100%;
+        height:100%;
+
+      }
+      
+      span {
+          margin-left:0px ;
+      }
+      h1 span{
+        background:white;
+        text-align: center; 
+        margin-top:15px;
+        margin-left: 35px;
+        padding-left: 10px;
+        padding:0 0px;
         }
-        .body_index_style {
-            background-position:auto;
+      h1 {
+        margin-left:15px;
+        border-bottom: 0px solid #000; 
+        line-height: 0em;
+        margin: 0px 0 0px; 
+        margin-top: 10px;
+        font-size: 22px;
+        display:inline-block;
+        } 
+        .child_index2 {
+            width:230px; 
+            height:240px;
+            padding-left: 2px;
+            margin-right: 50px;
+           border-radius: 10px;
+            padding-top: 8px;
+            padding-bottom: 20px;
+            text-align: center;
+            }
+            p {
+                font-size: medium;
             }
 }
+

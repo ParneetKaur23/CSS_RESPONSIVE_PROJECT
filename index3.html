@@ -5,23 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
     <style>
-        
+        .bg-image {
+  /* The image used */
+  background-image: url("./index.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  position:absolute;
+}
+       
         p{
             font-size: x-large;
         }
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
-<body class="body_style">
+<body>
+    <div class="bg-image"></div>
     <div class="form_style">
         <p>Add New List</p>
-        <input style="border:1px solid red;height:20px" type="text" name="input_value" id="input_value" value="">
-        <br>
-        <br>
-        <br>
-        <input class="button_style" type="button" name="submit_button" id="submit_button" value="ADD">
+        <p class="index3_style"><input class="input_style" type="text" name="input_value" id="input_value" value=""></p>
+        <p class="index3_style"><input class="button_style" type="button" name="submit_button" id="submit_button" value="ADD"></p>
     </div>
 </body>
 </html>
